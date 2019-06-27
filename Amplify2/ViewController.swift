@@ -27,19 +27,19 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
                         //self.signInStateLabel.text = "Logged In"
                     }
                 case .signedOut:
-//                    AWSMobileClient.sharedInstance().showSignIn(navigationController: self.navigationController!, { (userState, error) in
-//                        if(error == nil){       //Successful signin
-//                            DispatchQueue.main.async {
-//                                print("Logged In")
-//                                //self.signInStateLabel.text = "Logged In"
-//                            }
-//                        }
-//                    })
-                    let facebookComponent = FBSDKLoginButton()
-                    facebookComponent.center = self.view.center
-                    facebookComponent.delegate = self // set delegate to respond to user actions
-                    facebookComponent.readPermissions = ["public_profile","email"]
-                    self.view.addSubview(facebookComponent)
+                    AWSMobileClient.sharedInstance().showSignIn(navigationController: self.navigationController!, { (userState, error) in
+                        if(error == nil){       //Successful signin
+                            DispatchQueue.main.async {
+                                print("Logged In")
+                                //self.signInStateLabel.text = "Logged In"
+                            }
+                        }
+                    })
+//                    let facebookComponent = FBSDKLoginButton()
+//                    facebookComponent.center = self.view.center
+//                    facebookComponent.delegate = self // set delegate to respond to user actions
+//                    facebookComponent.readPermissions = ["public_profile","email"]
+//                    self.view.addSubview(facebookComponent)
                 default:
                     AWSMobileClient.sharedInstance().signOut()
                 }
