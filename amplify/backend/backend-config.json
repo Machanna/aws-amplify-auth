@@ -1,0 +1,8 @@
+{
+	"auth": {
+		"amplifyTest": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify2-dev-20190625160117-authRole",
+            "UnauthRoleArn": "arn:aws:iam::120136614442:role/amplify2-dev-20190625160117-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::120136614442:role/amplify2-dev-20190625160117-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify2-dev-20190625160117-deployment",
+            "UnauthRoleName": "amplify2-dev-20190625160117-unauthRole",
+            "StackName": "amplify2-dev-20190625160117",
+            "StackId": "arn:aws:cloudformation:us-east-1:120136614442:stack/amplify2-dev-20190625160117/c26f5160-9794-11e9-ba19-0a325fb8c980"
+        },
+        "categories": {
+            "auth": {
+                "amplifyTest": {
+                    "facebookAppId": "1657454197833743",
+                    "googleClientId": "421108721089-vreh9v3ok5f7rgq1i3vt03u7f4ci2ud1.apps.googleusercontent.com",
+                    "googleIos": "421108721089-tbj4cnqtrcua7rgr3ohlufvsgelnnuo8.apps.googleusercontent.com",
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    }
+}
